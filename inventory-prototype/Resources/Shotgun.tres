@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemResource" format=3 uid="uid://dm5vftrpl4n2o"]
+
+[ext_resource type="Script" uid="uid://dod51fl8en2l5" path="res://Scripts/ItemResource.gd" id="1_lp3fo"]
+
+[resource]
+script = ExtResource("1_lp3fo")
+item_name = "Shotgun"
+item_description = "A pump action shotgun capable of outputting lots of damage."
+item_type = 1
+grid_width = 4
+grid_height = 2
+metadata/_custom_type_script = "uid://dod51fl8en2l5"

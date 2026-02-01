@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ItemResource" format=3 uid="uid://vftbka6hbvq6"]
+
+[ext_resource type="Script" uid="uid://dod51fl8en2l5" path="res://Scripts/ItemResource.gd" id="1_x728a"]
+
+[resource]
+script = ExtResource("1_x728a")
+item_name = "Bandage"
+item_description = "A small bandage for applying to wounds and recovering a little health."
+grid_width = 1
+grid_height = 1
+metadata/_custom_type_script = "uid://dod51fl8en2l5"
