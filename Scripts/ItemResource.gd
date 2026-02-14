@@ -1,4 +1,4 @@
-class_name ItemResource extends Resource
+class_name InvItemResource extends Resource
 
 ## Resource for items, specifically in relation to grid based inventory
 ## Thusly information such as the amount of HP restored by consumable or damage dealt by weapon will be abstracted

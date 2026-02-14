@@ -1,0 +1,180 @@
+[gd_scene format=3 uid="uid://c4rs5v1a2leam"]
+
+[ext_resource type="Script" uid="uid://dai7s242i1gqq" path="res://inventory.gd" id="1_3n7vm"]
+
+[sub_resource type="GDScript" id="GDScript_3n7vm"]
+script/source = "extends GridContainer
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+#Properties
+#grid spaces = array of InventoryItems
+"
+
+[node name="Inventory" type="Control" unique_id=584679747]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3n7vm")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=422211961]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=1370234296]
+anchors_preset = 11
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -247.0
+offset_top = 150.0
+offset_right = -47.0
+offset_bottom = -98.0
+grow_horizontal = 0
+grow_vertical = 2
+alignment = 2
+
+[node name="Equip" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1838293214]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+text = "Equip"
+
+[node name="Use" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1538822847]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+text = "Use"
+
+[node name="Move" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=972276783]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+text = "Move"
+
+[node name="Drop" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=1701697047]
+custom_minimum_size = Vector2(200, 80)
+layout_mode = 2
+text = "Drop"
+
+[node name="Grid" type="GridContainer" parent="CanvasLayer" unique_id=1802367657]
+custom_minimum_size = Vector2(200, 160)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 122.0
+offset_top = 89.0
+offset_right = -467.0
+offset_bottom = -108.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 0
+theme_override_constants/v_separation = 0
+columns = 5
+script = SubResource("GDScript_3n7vm")
+
+[node name="Button1" type="Button" parent="CanvasLayer/Grid" unique_id=1258195026]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button2" type="Button" parent="CanvasLayer/Grid" unique_id=1187334487]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button3" type="Button" parent="CanvasLayer/Grid" unique_id=945581796]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button4" type="Button" parent="CanvasLayer/Grid" unique_id=1109915189]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button5" type="Button" parent="CanvasLayer/Grid" unique_id=1349744515]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button6" type="Button" parent="CanvasLayer/Grid" unique_id=1123856216]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button7" type="Button" parent="CanvasLayer/Grid" unique_id=1186370255]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button8" type="Button" parent="CanvasLayer/Grid" unique_id=959234259]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button9" type="Button" parent="CanvasLayer/Grid" unique_id=636177731]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button10" type="Button" parent="CanvasLayer/Grid" unique_id=327539065]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button11" type="Button" parent="CanvasLayer/Grid" unique_id=1939694647]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button12" type="Button" parent="CanvasLayer/Grid" unique_id=351289124]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button13" type="Button" parent="CanvasLayer/Grid" unique_id=1433774838]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button14" type="Button" parent="CanvasLayer/Grid" unique_id=1469853649]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button15" type="Button" parent="CanvasLayer/Grid" unique_id=295741921]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button16" type="Button" parent="CanvasLayer/Grid" unique_id=278981679]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button17" type="Button" parent="CanvasLayer/Grid" unique_id=1499225298]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button18" type="Button" parent="CanvasLayer/Grid" unique_id=135067141]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button19" type="Button" parent="CanvasLayer/Grid" unique_id=1437436612]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Button20" type="Button" parent="CanvasLayer/Grid" unique_id=1619543969]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
